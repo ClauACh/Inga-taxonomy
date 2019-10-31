@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Genero Inga para Bolivia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="title">
+            <h1 id = "titulo">Genero Inga para Bolivia</h1>
+            <!--<img id="logo_umsa" src="/Umsa-logo.svg.png">-->
+        </div>
+        <header class="header">
+                <div id="container">
+                    <nav>
+                        <div class="navbar">
+                            <a href="#home">Acerca del género</a>
+                            <a href="#news">Glosario</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Secciones</button>
+                                <div class="dropdown-content">
+                                    <a href="#">Tetragonae</a>
+                                    <a href="#">Complanatae</a>
+                                    <a href="#">Inga</a>
+                                </div>
+                                </div>
+                                
+                  </nav>
+                </div>
+                </header>
+        
+<div class="content">
+        <h2>Sección  Tetragonae</h2>
+        <p>Sección Tetragonae (Pittier) T. D. Penn. Tipo: <span id = "sp">I. sapindoides</span> Willd. </p>
+        
+        <h3>Clave Dicotómica</h3>
+
+        <section class="identif">
+            <div class="key">
+
+                <div id="char-one">
+        <p class="option" id="opcion-1a" onclick="toggle_visibility('sp-show');"> 1a. Estipulas > 1cm,
+        ovadas, por lo general persistentes;<br>
+        corola > 1 cm, cáliz > 2 cm<br></p>
+            <p><span id='sp-show'>Inga macrophila</span></p>
+
+        <p class="option" id="opcion-1b"  onclick="toggle_visibility('foo');"> 1b. Estípulas < 1 cm, formas variables, caduca o persistente;<br> 
+        corola < 1 cm y cáliz < 2 cm de largo<br></p></div>
+
+                <div id="foo" id="char-two">
+        <p class="option" onclick="toggle_visibility('sp-show-two');"> 2a. Pecíolo  7.7 – 9.7 cm, hojas con 3-(4) pares de folíolos<br></p>
+            <p><span id='sp-show-two'>Inga sapindoides</span></p>
+        <p class="option" onclick="toggle_visibility('foo-dos');"> 2b. Pecíolo 1.2 – 5.9  cm de largo,  número foliolos (3) 4–5 <br></p></div>
+
+                <div id="foo-dos" id="char-three">
+        <p class="option" onclick="toggle_visibility('sp-show-three');"> 3a. Legumbre aplanada, 10.5–16.5 × 1.1–1.3 cm <br></p>
+            <p><span id='sp-show-three'>Inga striata</span></p>
+        <p class="option" onclick="toggle_visibility('sp-show-four');"> 3b. Legumbre cuadrangular 7.5–22.5 × 2.3–2.7 cm<br></p></div>
+            <p><span id='sp-show-four'>Inga feuillei</span></p>
+            </div>
+        
+
+        <div class="character">
+        
+            <h4 id="char-title">Ilustraciones</h4>
+            <img id="char-illustration" src="/ej_ilustracion2.png">
+        </div>
+        
+        </section>
+        <button id="reset">Reset</button> 
+    </div>
+
+    <div class="refs">
+        <h4>Referencias bibliograficas</h3>
+        <p>Aparicio, C. 2013. Taxonomía del genero Inga, secciones Complanatae, Inga y Tetragonae para Bolivia, 
+            para el título de Licenciatura en Biología. Universidad Mayor de San Andrés, La Paz Bolivia.</p>
+        <p>Pennington, T.D. 1997. The genus Inga. Botany. Royal Botanic Gardens, Kew. 844 p.</p>
+        </div>
+    <footer>Página creada por Claudia Aparicio - 2019</footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

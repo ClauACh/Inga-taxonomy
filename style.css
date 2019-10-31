@@ -118,7 +118,7 @@ h1::before{
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 1rem;
     border: none;
     outline: none;
     color: white;
@@ -290,6 +290,10 @@ footer {
 }
 
 @media screen and (max-width: 768px){
+    h1 {
+        font-size: 1.7rem;
+    }
+    
     p {
         font-size: 1em;
         color: red;
@@ -302,8 +306,16 @@ footer {
         justify-content: center;
         align-content: center;
         padding: 0.7rem 2rem;
+        font-size: .9rem;
+        
     }
-
+    .dropdown .dropbtn {
+        font-size: .9rem;
+        border: none;
+        outline: none;
+     
+        padding: 14px 16px;
+    }
     .identif, 
     .key {
         width: 100%;
